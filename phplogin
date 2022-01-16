@@ -1,0 +1,2 @@
+CREATE TABLE `phplogin`.`user` ( `id` INT(100) NOT NULL AUTO_INCREMENT , `username` VARCHAR(100) NOT NULL , `password` VARCHAR(100) NOT NULL , PRIMARY KEY (`id`)) ENGINE = InnoDB;
+INSERT INTO `user` (`id`, `username`, `password`) VALUES ('1', 'ds19148', '11111'), ('2', 'ds12345', '22222');
